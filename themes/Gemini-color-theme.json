@@ -1,10 +1,18 @@
 {
 	"name": "Gemini",
 	"colors": {
-		"editor.background": "#263238",
-		"editor.foreground": "#eeffff",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"editor.background": "#14202b",
+		"editor.foreground": "#d7e1ea",
+		"activityBarBadge.background": "#150237",
+		"activityBar.background": "#06011e",
+		"activityBar.activeBackground": "#884208",
+		"activityBar.inactiveForeground": "#216e97",
+		"sideBarTitle.foreground": "#cf8ac4",
+		"sideBar.background": "#0e161e",
+		"statusBar.background": "#000000",
+		"tab.inactiveBackground": "#14202b",
+		"tab.activeBackground": "#884208",
+		"tab.hoverBackground": "#c99325"
 	},
 	"tokenColors": [
 		{
@@ -14,7 +22,7 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"fontStyle": "italic",
+				"fontStyle": "bold",
 				"foreground": "#546E7A"
 			}
 		},
@@ -25,7 +33,8 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#F78C6C"
+				// F78C6C
 			}
 		},
 		{
@@ -59,6 +68,15 @@
 			}
 		},
 		{
+			"name": "new",
+			"scope": [
+				"keyword.operator.new"
+			],
+			"settings": {
+				"foreground": "#67eab3"
+			}
+		},
+		{
 			"name": "Operator, Misc",
 			"scope": [
 				"keyword.control",
@@ -79,6 +97,15 @@
 			}
 		},
 		{
+			"name": "PERIODT",
+			"scope": [
+				"punctuation.accessor",
+			],
+			"settings": {
+				"foreground": "#ef95e3"
+			}
+		},
+		{
 			"name": "Tag",
 			"scope": [
 				"entity.name.tag",
@@ -86,7 +113,8 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#3ab397"
+				// F4BCC2
 			}
 		},
 		{
@@ -108,7 +136,17 @@
 				"meta.block variable.other"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#F78C6C"
+			}
+		},
+		{
+			"name": "Imports",
+			"scope": [
+				"variable.other.readwrite.alias",
+				"new.expr"
+			],
+			"settings": {
+				"foreground": "#d2df89"
 			}
 		},
 		{
@@ -169,6 +207,15 @@
 			}
 		},
 		{
+			"name": "Class Name",
+			"scope": [
+				"entity.name.type.class"
+			],
+			"settings": {
+				"foreground": "#f4bcc2"
+			}
+		},
+		{
 			"name": "Entity Types",
 			"scope": [
 				"support.type"
@@ -208,8 +255,16 @@
 				"variable.language"
 			],
 			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#FF5370"
+			}
+		},
+		{
+			"name": "this",
+			"scope": [
+				"variable.language.this"
+			],
+			"settings": {
+				"foreground": "#2cbb82"
 			}
 		},
 		{
@@ -238,7 +293,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#F4BCC2"
 			}
 		},
 		{

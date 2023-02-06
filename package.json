@@ -1,13 +1,38 @@
 {
   "name": "gemini",
   "displayName": "Gemini ",
-  "description": "Two Tone Theme",
+  "description": "First Theme",
+  "publisher": "Colocho",
+  "author": {
+    "name": "Adonis"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.75.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Adxnis/vscode-gemini-theme"
+  },
+  "galleryBanner": {
+    "color": "14202b",
+    "theme": "dark"
+  },
+  "icon": "images/gemini.png",
   "categories": [
     "Themes"
+  ],
+  "keyword": [
+    "gemini",
+    "blue",
+    "purple"
+  ],
+  "badges": [
+    { 
+      "url": "https://img.shields.io/badge/Adonis-Support%20my%20theme-blue",
+      "href": "https://twitter.com/adxxxnis",
+      "description": "Support my theme"
+    }
   ],
   "contributes": {
     "themes": [
